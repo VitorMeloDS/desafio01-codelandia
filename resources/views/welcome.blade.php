@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  <link rel="shortcut icon" href="../../public/img/blog.png" type="image/x-icon">
+  <link rel="shortcut icon" href="{{url('./img/blog.png')}}" type="image/x-icon">
   <title>Laravel</title>
 </head>
 
@@ -27,7 +27,7 @@
       <div class="bg-white my-5 py-3 px-xl-5">
         <div class="d-flex justify-content-between">
           <p>{{ $post->data }}</p>
-          <img src="{{url('../../public/img/heart.png')}}" alt="curtir">
+          <img class="h-25" src="{{url('./img/heart.png')}}" alt="curtir">
         </div>
         <h3>{{ $post->titulo }}</h3>
         <p>{{ $post->texto }}</p>
