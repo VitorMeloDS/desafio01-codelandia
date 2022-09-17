@@ -24,7 +24,7 @@
 
   <div class="container">
     @foreach ($posts as $post)
-      <div class="bg-white my-5 py-3 px-xl-5">
+      <div class="bg-secondary text-black bg-opacity-10 my-5 py-3 px-4 px-xl-5 px-lg-5 px-sm-5 p-xxl-5 rounded ">
         <div class="d-flex justify-content-between">
           <p>{{ $post->data }}</p>
           <img class="h-25" src="{{url('./img/heart.png')}}" alt="curtir">
